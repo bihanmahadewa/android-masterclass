@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Language App 2</string>
+
+    <string name="text_main">Hello</string>
+</resources>
