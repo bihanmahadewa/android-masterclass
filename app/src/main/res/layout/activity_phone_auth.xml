@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PhoneAuthActivity"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/edt_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your phone number"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="login / sign up"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/edt_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the 6 digit code"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btn_verify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Verify phone number"
+        android:layout_margin="5dp"/>
+</LinearLayout>

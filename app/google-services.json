@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "452138204086",
+    "firebase_url": "https://udemy-android-test-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "udemy-android-test",
+    "storage_bucket": "udemy-android-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452138204086:android:a391540f5cc0c3bfbf1f17",
+        "android_client_info": {
+          "package_name": "com.bihanmahadewa.firebaseapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "452138204086-fr462dlv94m9tju3bf28hd6upvardbs2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bihanmahadewa.firebaseapp",
+            "certificate_hash": "f053f11a440ecc4d47e11c76d7dfade5d30dd329"
+          }
+        },
+        {
+          "client_id": "452138204086-71di9844hos4r3i3d30it5hlpv5bgfqr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVdRm-7S7-Af53tAibyovZiFexx-Fu3n8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "452138204086-71di9844hos4r3i3d30it5hlpv5bgfqr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

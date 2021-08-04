@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AuthActivity"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/edt_email"
+        android:hint="Enter your email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/edt_password"
+        android:hint="Enter your password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/btn_authenticate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login / Register"
+        android:layout_margin="5dp" />
+
+</LinearLayout>
